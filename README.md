@@ -188,7 +188,7 @@ Notice how we added a second branch in our conditional logic to further recurse 
 
 ## Depth Vs. Breadth First Traversals
 
-Another important concept to touch upon and address at this point is the difference between depth and breadth first search trees. In our above example, we have searched in a depth first approach; when we hit the second item which was a nested list, we continued all the way down the rabbit hole before moving on. A depth first search would be if we processed everything at the first level, putting nested lists on hold till later. Here's the same function rewritten as a breadth first traversal:
+Another important concept to touch upon and address at this point is the difference between depth and breadth first search trees. In our above example, we have searched in a depth first approach; when we hit the second item which was a nested list, we continued all the way down the rabbit hole before moving on. A breadth first search would be if we processed everything at the first level, putting nested lists on hold till later. Here's the same function rewritten as a breadth first traversal:
 
 
 ```python
